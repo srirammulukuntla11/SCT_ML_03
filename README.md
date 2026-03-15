@@ -15,19 +15,7 @@ A machine learning project that uses Support Vector Machine (SVM) to classify im
 - NumPy
 - Matplotlib/Seaborn (Visualization)
 
-## 📋 Project Structure
-cats_vs_dogs_svm/
-├── data/
-│ ├── raw/ # Place PetImages folder here
-│ └── splits/ # Train/val/test splits (auto-generated)
-├── src/
-│ ├── data_preprocessing.py
-│ ├── feature_extraction.py
-│ ├── train_model.py
-│ └── utils.py
-├── models/ # Saved trained model
-├── requirements.txt
-└── main.py
+
 
 text
 
@@ -61,6 +49,7 @@ TARGET_SIZE: Image resize dimensions (default: 128x128)
 SVM_C: SVM regularization parameter (default: 1.0)
 
 📊 Results
+
 The model achieves 70-75% accuracy on test data using HOG features + SVM.
 
 Output includes:
@@ -72,13 +61,23 @@ Classification report (precision, recall, F1-score)
 Confusion matrix visualization
 
 📝 Requirements
+
 text
+
 numpy
+
 opencv-python
+
 scikit-learn
+
 scikit-image
+
 matplotlib
+
 seaborn
+
 pillow
+
 joblib
+
 tqdm
