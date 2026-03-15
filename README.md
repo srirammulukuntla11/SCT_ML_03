@@ -21,7 +21,7 @@ text
 
 ## 🚀 How to Run
 
-1. **Clone the repository**
+**Clone the repository**
    ```bash
    git clone https://github.com/yourusername/cats-vs-dogs-svm.git
    cd cats-vs-dogs-svm
@@ -43,6 +43,7 @@ bash
 python main.py
 
 ⚙️ Configuration
+
 You can modify these parameters in main.py:
 
 MAX_IMAGES_PER_CLASS: Number of images to use (default: 500)
