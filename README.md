@@ -28,6 +28,7 @@ text
 Install dependencies
 
 bash
+
 pip install -r requirements.txt
 Download dataset
 
@@ -38,7 +39,9 @@ Extract and place PetImages folder in data/raw/
 Run the project
 
 bash
+
 python main.py
+
 ⚙️ Configuration
 You can modify these parameters in main.py:
 
