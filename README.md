@@ -21,22 +21,23 @@ text
 
 ## 🚀 How to Run
 
-**Clone the repository**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/cats-vs-dogs-svm.git
    cd cats-vs-dogs-svm
-Install dependencies
+2. Install dependencies
 
 bash
 
 pip install -r requirements.txt
-Download dataset
+
+3. Download dataset
 
 Download from here
 
 Extract and place PetImages folder in data/raw/
 
-Run the project
+4. Run the project
 
 bash
 
