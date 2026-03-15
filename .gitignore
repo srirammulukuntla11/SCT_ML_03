@@ -1,0 +1,45 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+ENV/
+myenv/
+*.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+data/raw/
+data/splits/
+models/*.pkl
+*.zip
+*.rar
+*.7z
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and outputs
+*.log
+*.dat
+*.csv
+*.h5
+*.npy
+
+# System files
+.DS_Store
+Thumbs.db
